@@ -66,13 +66,13 @@ function draw(data) {
 	d3.select("div.description")
 		.append("p")
 		.attr("class", "description")
-		.text(descriptions[variable]);
+		.text(descriptions["alcohol"]);
 
 	// Add chart title
 	d3.select("div.chart-title")
 		.append("h2")
 		.attr("class", "chart-title")
-		.text(titles[variable]);
+		.text(titles["alcohol"]);
 }
 
 // Function to update the chart in response to button clicks
