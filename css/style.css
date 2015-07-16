@@ -1,0 +1,23 @@
+div {
+	margin: auto;
+	width: 50%;
+}
+
+h1 {
+	margin: auto;
+	width: 50%;
+	color: #009987;
+	font-size: 50px;
+	text-align: center;
+}
+
+.button-holder {
+	text-align: center;
+}
+
+rect {
+	fill: #990012;
+}
+text {
+	font-size: 15px !important;
+}

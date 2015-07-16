@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Red wine quality</title>
+	<meta charset="utf-8">
+  	<script src="http://d3js.org/d3.v3.min.js"></script>
+  	<script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/chart.js"></script>
+</head>
+<body>
+	<h1>What are good wines made of?</h1>
+	<div class="intro">
+		<p class="intro">
+			Although the quality of wine is a subjective question and partially a matter of taste, many good wines still share similar characteristics.
+			Cortez et al (see data source) have created a dataset listing various chemical properties of Portuguese Vinho Verde wines, along with subjective expert evaluations on their quality on a scale from 1 to 10. This chart demonstrates some of the relationships between chemical properties of 1599 red wines and their perceived quality.
+		</p>
+	</div>
+
+	<div class="button-holder">
+		<button id="alcohol" onclick="update_chart('alcohol')">Alcohol</button>
+		<button id="citric_acid" onclick="update_chart('citric.acid')">Citric acid</button>
+		<button id="fixed_acidity" onclick="update_chart('fixed.acidity')">Fixed acids</button>
+		<button id="volatile_acidity" onclick="update_chart('volatile.acidity')">Volatile acids</button>
+		<button id="sulphates" onclick="update_chart('sulphates')">Sulphates</button>
+		<button id="free_sulfur_dioxide" onclick="update_chart('free.sulfur.dioxide')">Free sulfur dioxide</button>
+		<button id="total_sulfur_dioxide" onclick="update_chart('total.sulfur.dioxide')">Total sulfur dioxide</button>
+	</div>
+	<div class="chart-title"></div>
+	<div class="chart-holder"></div>
+	<div class="description"></div>
+	<div class="references">
+		<h2>Data source:</h2>
+		<p>
+			P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis.
+			<a href="http://www.sciencedirect.com/science/article/pii/S0167923609001377">Modeling wine preferences by data mining from physicochemical properties.</a> In Decision Support Systems, Elsevier, 47(4):547-553. ISSN: 0167-9236.
+			<br>
+			<a href="https://s3.amazonaws.com/udacity-hosted-downloads/ud651/wineQualityInfo.txt">Description of the dataset.</a>
+		</p>
+	</div>
+</body>
+</html>
