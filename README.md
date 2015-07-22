@@ -2,27 +2,23 @@ DATA VISUALIZATION:
 What are good wines made of?
 Juho Salminen
 
-Summary:
+SUMMARY
 I decided to visualize the relationships between chemical properties of Portuguese Vinho Verde red wines and their subjective quality I had discovered from the dataset collected by Cortez et al. Quality of the wines correlates with amount of alcohol, fixed and volatile acidity, and amounts of citric acid, sulphates and sulfur dioxide. I wanted to quickly demonstrate the user of the chart that there are consistent patterns between chemical properties and wine quality.
 
-Design:
+DESIGN
 I decided to use bar chart showing the average values for different quality wines. This choice hides quite lot of details on individual wines, but emphasises the underlying patterns in the data. As such I considered it a good tradeoff: the users could quickly gain an understanding of the main trends without drowning into the details. I found the default dimple aesthetics quite pleasant and did not modify them, except for increasing the font size slightly. I chose to use wine red (#990012) in the bar chart because it fits the context and as a muted tone does not stand out too much and annoy the eyes. The web page where I found the color code suggested #009987 as a good choice for a complementary color, so I used that in the main headline of the page. To make the chart interactive I added a set of buttons that allow the user to investigate different features of the dataset, while the chart keeps its familiar format. The chart update was delayed by 1000 ms to make the transition smoother. Finally, I added a short, changing explanations below the chart.
 
 Changes after collecting feedback:
-Based on the feedback, I made the following changes:
 - Fixed initially missing chart title and description (typo in the code)
 - Removed the mention of the number of wines in the dataset from the introduction text
 - Moved description text above the chart to make it more visible
 - Tried adding a picture of wines to make the visualization more appealing, but it only made the visualization more cluttered and took attention away from the main chart.
 
-Feedback:
-Include all feedback from others from the first sketch to the final visualization.
+FEEDBACK
 
 Feedback from L:
 - Remember the Data is beautiful? I don't like to read, there's too much numbers in the beginning. A more visual ingress would be nicer. For example in the book there was different coffees represented as cups filled with different amounts of coffee and milk... for espresso and latte or other types.
-
 - Animation is cool!
-
 - The chart title is missing in the beginning.
 
 Feedback from SJ:
