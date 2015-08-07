@@ -14,6 +14,12 @@ Changes after collecting feedback:
 - Moved description text above the chart to make it more visible
 - Tried adding a picture of wines to make the visualization more appealing, but it only made the visualization more cluttered and took attention away from the main chart.
 
+Changes after Udacity review:
+- Re-processed the dataset with R. New quality categories: Poor (3-4), Mediocre (5-6), and Good (7-8). Scaled the other variables to have mean zero and standard deviation of one.
+- Removed button animations and built a chart that shows all the variables at the same time.
+- Moved variable descriptions below the chart. They are all shown at the same time now.
+- Changed the main heading color to better match the chart color scheme. Using wine red (#990012).
+
 FEEDBACK
 
 Feedback from L:
@@ -31,6 +37,11 @@ Feedback from A:
 - Visualization is okay with me (bars are red) but highly dependent on the audience the overall infographics!
 - I am not a frequent wine drinker so for me to look at the charts and visualizations first of all is not a point of interest and the chemical details and explanations are still vague due to lack of drinking experience and knowledge.
 - Overall, I assume for a frequent wine user there is enough information provided for better decision for the next drinking experience.
+
+Feedback from Udacity review:
+...But this visualization contains 7 separate charts, each chart has a different y-axis variable, and each chart is shown separately. So I as the chart reader have to click from chart to chart. By the time I click through the charts and get to "total sulfur dioxide," I have to remember if wine quality 8 had a lot of alcohol or a little alcohol. But it's hard to remember because that was 7 charts ago. So I either have to write down what qualities make a great wine as I go through the visualizations or I have to keep clicking through the charts until I memorize it. I'd rather the chart maker encode the comparison for me so that I don't have to think too much.
+
+Also, the data set is a little strange because it says wines are ranked from 1-10, but then the red wine data set only has ranks from 3-8. But people are used to thinking of rates from 1-10 or 1-5. It might be good to find a way to deal with this, which I'll discuss...
 
 Resources:
 
@@ -58,8 +69,3 @@ http://stackoverflow.com/
 
 Wine quality dataset description:
 https://s3.amazonaws.com/udacity-hosted-downloads/ud651/wineQualityInfo.txt
-
-
-
-
-
