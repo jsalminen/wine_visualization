@@ -6,7 +6,7 @@ div {
 h1 {
 	margin: auto;
 	width: 50%;
-	color: #009987;
+	color: #990012;
 	font-size: 50px;
 	text-align: center;
 }
@@ -15,9 +15,6 @@ h1 {
 	text-align: center;
 }
 
-rect {
-	fill: #990012;
-}
 text {
 	font-size: 15px !important;
 }
